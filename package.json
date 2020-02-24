@@ -1,0 +1,40 @@
+{
+  "name": "serverless-typescript-graphql-netlify-starter",
+  "version": "1.0.0",
+  "description": "A simple serverless GraphQL API built with TypeScript and deployed on Netlify.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon",
+    "codegen": "graphql-codegen --config codegen.yml"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stemmlerjs/serverless-typescript-graphql-netlify-starter.git"
+  },
+  "keywords": [
+    "typescript",
+    "graphql",
+    "api",
+    "netlify"
+  ],
+  "author": "Khalil Stemmler <khalil@apollographql.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stemmlerjs/serverless-typescript-graphql-netlify-starter/issues"
+  },
+  "homepage": "https://github.com/stemmlerjs/serverless-typescript-graphql-netlify-starter#readme",
+  "devDependencies": {
+    "@graphql-codegen/cli": "^1.12.2",
+    "@graphql-codegen/introspection": "1.12.2",
+    "@graphql-codegen/typescript": "1.12.2",
+    "@graphql-codegen/typescript-resolvers": "1.12.2",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "apollo-server": "^2.10.1",
+    "apollo-server-lambda": "^2.10.1"
+  }
+}
