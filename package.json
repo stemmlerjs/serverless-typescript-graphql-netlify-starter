@@ -34,7 +34,7 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "apollo-server": "^2.10.1",
+    "apollo-server": "^2.25.3",
     "apollo-server-lambda": "^2.10.1"
   }
 }
