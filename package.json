@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/stemmlerjs/serverless-typescript-graphql-netlify-starter#readme",
   "devDependencies": {
-    "@graphql-codegen/cli": "^1.12.2",
+    "@graphql-codegen/cli": "^1.21.8",
     "@graphql-codegen/introspection": "1.12.2",
     "@graphql-codegen/typescript": "1.12.2",
     "@graphql-codegen/typescript-resolvers": "1.12.2",
